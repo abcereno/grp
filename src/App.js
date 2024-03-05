@@ -13,7 +13,7 @@ import Contact from "./Components/Contact/Contact.jsx";
 function App() {
   return (
 <>
-<BrowserRouter>
+<BrowserRouter  basename="/grp">
       <Navibar/>
       <Container>
           <Routes>
