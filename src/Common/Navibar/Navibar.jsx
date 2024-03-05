@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Navbar, Container, Nav,Modal,Button,InputGroup,Form,Row, Col } from 'react-bootstrap';
 import * as formik from 'formik';
 import * as yup from 'yup';
+import { Link } from 'react-router-dom';
 import images from '../images';
 import "./Navibar.css"
 
@@ -57,10 +58,10 @@ const Navibar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='text-light' href="/">Home</Nav.Link>
-            <Nav.Link className='text-light' href="/articles">Articles</Nav.Link>
+          <Link className='me-3 text-decoration-none text-light' to={"/"}>Home</Link>
+              <Link className='me-3 text-decoration-none text-light' to={"/articles"}>Articles</Link>
+              <Link className='me-3 text-decoration-none text-light' to={"/contact"}>Contact</Link>
             <Nav.Link className='text-light' onClick={handleShow}>Sign Up</Nav.Link>
-            <Nav.Link className='text-light' href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
