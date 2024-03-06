@@ -16,3 +16,14 @@ code {
   box-shadow: 0 0 0 100vmax black;
   clip-path: inset(0 -100vmax);
 }
+*{
+  color: white;
+}
+.navbar-nav > *{
+  padding: 0.5rem;
+  border-radius: 16px;
+  transition: all 0.4s ease;
+}
+.navbar-nav > *:hover{
+  background: #2a4ff6;
+}
