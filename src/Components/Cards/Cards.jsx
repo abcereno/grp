@@ -4,10 +4,10 @@ import data from "../../Common/images"
 
 const Cards = () => {
     return (
-        <Row style={{background: "black" }} className='home-row vertical-scroll pt-5 pb-5'>
+        <Row style={{background: "black"}} className='home-row vertical-scroll pt-5 pb-5'>
             {data.map((items) => (
                 <Col key={items.id} className='d-flex justify-content-center align-items-center'>
-                    <Card style={{ width: '18rem', background: `url(${items.pic})` }}>
+                    <Card style={{ width: '18rem', background: `url(${items.pic})`, color:"white"  }}>
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

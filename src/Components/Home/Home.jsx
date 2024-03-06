@@ -10,7 +10,7 @@ import Carousels from '../Carousel/Carousels';
 const Home = () => {
   return (
     <>
-      <Row style={{ minHeight: "calc(100vh - 80px)", background: "black" }} className='home-row vertical-scroll'>
+      <Row style={{ minHeight: "calc(100vh - 80px)", background: "black", color:"white" }} className='home-row vertical-scroll'>
         <Col xs={12} md={6} className='d-flex flex-column justify-content-center gap-3 scale-in-br'>
           <h1>Transform Your Financial Future</h1>
           <h3>

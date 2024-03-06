@@ -60,7 +60,7 @@ const Navibar = () => {
             <Nav className="me-auto">
               <Link className='me-3 text-decoration-none text-light' to={"/"}>Home</Link>
               <Link className='me-3 text-decoration-none text-light' to={"/articles"}>Articles</Link>
-              <Nav.Link className='text-light' onClick={handleShow}>Sign Up</Nav.Link>
+              <Link className='me-3 text-decoration-none text-light' onClick={handleShow}>Sign Up</Link>
               <Link className='me-3 text-decoration-none text-light' to={"/contact"}>Contact</Link>
             </Nav>
           </Navbar.Collapse>
