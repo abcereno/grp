@@ -2,7 +2,7 @@ import pic from "../../Common/Images/placeholder.jpg";
 import { Row, Col,Carousel } from "react-bootstrap";
 function Carousels() {
   return (
-    <Row style={{ background: "black",  color:"white"  }} className='home-row vertical-scroll'>
+    <Row style={{ background: "black",  color:"white"  }} className='home-row vertical-scroll pt-5 pb-5'>
     <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
         <h1>Trusted by people</h1>
       </Col>

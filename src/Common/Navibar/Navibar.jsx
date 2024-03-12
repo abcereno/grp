@@ -58,10 +58,10 @@ const Navibar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link className='me-3 text-decoration-none text-light' to={"/"}>Home</Link>
-              <Link className='me-3 text-decoration-none text-light' to={"/articles"}>Articles</Link>
-              <Link className='me-3 text-decoration-none text-light' onClick={handleShow}>Sign Up</Link>
-              <Link className='me-3 text-decoration-none text-light' to={"/contact"}>Contact</Link>
+              <Link className='me-3 text-decoration-none text-light link' to={"/"}>Home</Link>
+              <Link className='me-3 text-decoration-none text-light link' to={"/articles"}>Articles</Link>
+              <Link className='me-3 text-decoration-none text-light link' onClick={handleShow}>Sign Up</Link>
+              <Link className='me-3 text-decoration-none text-light #2a4ff6' to={"/contact"}>Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

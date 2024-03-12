@@ -12,11 +12,11 @@ import Signup from "./Components/Signup/Signup.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 function App() {
   return (
-<>
-{/*  basename="/grp" */}
-<BrowserRouter basename="/grp">
-      <Navibar/>
-      <Container>
+    <>
+      {/*  basename="/grp" */}
+      <BrowserRouter basename="/grp">
+        <Navibar />
+        <Container>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/*' element={<NotFound />} />
@@ -24,10 +24,10 @@ function App() {
             <Route path='/signup' element={<Signup />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
-      <Footer/>
-      </Container>
+          <Footer />
+        </Container>
       </BrowserRouter>
-</>
+    </>
   );
 }
 
