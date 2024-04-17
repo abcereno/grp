@@ -2,23 +2,23 @@
 const process = [
     {
         id: 1,
-        title: "Speak with a Credit Specialist",
-        description: "Once you call in you will speak with a credit specialist who will tell you about our program, answer any questions that you have, and determine if our services is what's best for you.",
+        title: "Identifying Credit Score Issues",
+        description: "Uncertain why your credit score isn't where you want it to be? Let's shed some light! We offer a deep dive credit analysis to pinpoint any inaccurate information dragging down your score. Once we identify these errors, we'll empower you with the knowledge and resources needed to challenge them and pave the way for a better credit future. We'll be your constant guide throughout this process, ensuring you understand each step towards a healthier credit score. After all, your credit success is our ultimate goal!",
     },
     {
         id: 2,
-        title: "Enroll On Phone",
-        description: "Next is the enrollment process which can be done online or over the phone whichever you're most comfortable with which you will gain access to our client portal to track updates each month, set up your card details for draft or one time payment, and complete onboarding which is no more than 10 minutes.",
+        title: "Challenging the Bureaus",
+        description: "Following the identification of any unverifiable, inaccurate, or misleading information within your credit report, we will initiate a formal dispute resolution process. This process involves challenging the reported information with the relevant parties: credit bureau, creditor, and collector. Customized dispute letters will be drafted and submitted to each entity. Due to the nature of this process and the potential for inquiries and responses, the resolution timeline can range from 30 to 45 days. Throughout this period, we remain committed to your credit restoration goals and will provide ongoing support.",
     },
     {
         id: 3,
-        title: "Let The Process Begin",
-        description: "Now that you have spoken with a specialist, and enrolled it's time to start the restoration process! You will be assigned one credit repair specialist that will work on your credit profile each month by sending letters to the 3 major credit bureaus, and creditors on each account that you would like challenged because of errors. While we are working on the deletions each month you will work on building your credit history, going through our course and maintain positive credit habits so that this process is an easy one. Results cannot be guaranteed, and the timeframe on how long it will take is undetermined once we review your credit report we can provide an estimate only of how long it may take.",
+        title: "Analyzing the Updated Report",
+        description: "Once we receive the updated reports from the credit bureaus, our team will conduct a thorough analysis. This involves verifying if the disputed information - previously identified as inaccurate, unverifiable, or misleading - has been successfully removed or corrected. If the information is still on the report, we go back to the entities that furnished the report and start asking questions about why the information was not removed or updated. If the information on the report has been updated, we will move on to the next identified discrepancy on your credit report, prioritizing further dispute resolution efforts.",
     },
     {
         id: 4,
-        title: "Your Road To A Better Life Begins",
-        description: "Our goal is to get each client to a good credit score and to show each client how to continue increasing their scores through credit education after they're done. We offer funding and ways to create passive income with good credit. Each month together we will collectively work towards that goal & we will do 80%, and the client required to do 20% or this process simply won't work.",
+        title: "Monthly Update",
+        description: "Understanding your progress is key! To keep you informed and engaged in your credit restoration journey, we'll provide you with monthly updates. These reports will detail the results of our dispute efforts with credit bureaus, creditors, and collectors. We'll clearly outline any updates to your credit report, including removals or corrections of inaccurate information. Additionally, the reports will highlight any outstanding disputes and the next steps we're taking to resolve them. This transparency allows you to stay involved and confident as we work together to achieve your credit score goals.",
     },
 ]
 
