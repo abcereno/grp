@@ -35,10 +35,9 @@ code {
   box-shadow: 0 0 0 100vmax black;
   clip-path: inset(0 -100vmax);
 }
-li::marker :not(.list-unstyled){
+.check li::marker{
   content: "✔";
 }
-
 :root::-webkit-scrollbar {
   width: 1em !important;
   height: 1em !important;

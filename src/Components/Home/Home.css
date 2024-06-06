@@ -1,7 +1,15 @@
 .home-row {
-        min-height: calc(100vh - 230px);
+        min-height: 650px !important;
 }
 
+.home-video {
+        max-width: 100%;
+        max-height: 100%;
+        width: 65%;
+        /* Adjust the zoom level */
+        height: auto;
+        object-fit: contain;
+}
 .scale-in-br {
         -webkit-animation: scale-in-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: scale-in-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

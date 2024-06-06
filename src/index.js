@@ -7,13 +7,14 @@ import { GlobalProvider } from './Common/GlobalContext/GlobalContext';
 import axios from 'axios';
 
 axios.defaults.baseURL = "https://creditrepair-api.online/api"
+// axios.defaults.baseURL = "http://127.0.0.1:8000/api"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <GlobalProvider>
       <App />
     </GlobalProvider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 reportWebVitals();

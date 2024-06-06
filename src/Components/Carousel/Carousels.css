@@ -1,0 +1,10 @@
+/* .carousel{
+    min-height: 650px !important;
+} */
+.carousel-video{
+    max-width: 100%;
+    max-height: 100%;
+    width: 57%; /* Adjust the zoom level */
+    height: auto;
+    object-fit: contain;
+}
